@@ -24,19 +24,6 @@ The following operations are available, in the ascending order of priority:
 * N a -unary negation, i.e. -a,
 * MIN( a1, a2, ... ), MAX(a1, a2, ...) -functions MIN and MAX do not have a restriction on the number of parameters;
 * ( ... ) -parentheses.
-<h3>Example Input:</h3>
-
-4
-
-MIN ( 100 , MAX ( 1 , 34 , 2 ) , 80 ,  MIN ( 66 , 36  , 35 , 77 ) , 50 , 60 ) .
-
-2 + MIN ( 100 , MAX ( 1 , 6 * 5 + 2 , 2 ) , 80 ,  MIN ( 66 , 36  , 35 , 77 ) , 50 , 60 ) * 3 .
-
-N 400 + ( 11 - ( 3 * 2 ) ) / 2 + N N 200 .
-
-IF ( ( 6 + 8 ) , ( 4 / 2 ) , MIN ( 8 , 2 , 1 , 0 , 3 ) ) * 2 * 6 / N ( 3 ) .
-
-
 
 # Output for each formula:
 * the formula in the postfix notation;
@@ -48,8 +35,5 @@ IF ( ( 6 + 8 ) , ( 4 / 2 ) , MIN ( 8 , 2 , 1 , 0 , 3 ) ) * 2 * 6 / N ( 3 ) .
 * if you encounter a division by 0, print "ERROR" and move to the next expression.
 
 <h3>Example:</h3>
-
-<h4>Input</h4>
-    <img src="example_input.png" alt="Logo" width="700" height="200">
-    <h4>Output</h4>
-  <img src="example_output.png" alt="Logo" width="600" height="800">
+<a href="https://github.com/mafinzyx/ONP/blob/main/example_input.png">Input</a>
+<a href="https://github.com/mafinzyx/ONP/blob/main/example_output.png">Output</a>
