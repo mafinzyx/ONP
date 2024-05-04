@@ -35,5 +35,5 @@ The following operations are available, in the ascending order of priority:
 * if you encounter a division by 0, print "ERROR" and move to the next expression.
 
 <h3>Example:</h3>
-<a href="https://github.com/mafinzyx/ONP/blob/main/example_input.png">Input</a>
-<a href="https://github.com/mafinzyx/ONP/blob/main/example_output.png">Output</a>
+<a href="https://github.com/mafinzyx/ONP/blob/main/readme_images/example_input.png">Input</a>
+<a href="https://github.com/mafinzyx/ONP/blob/main/readme_images/example_output.png">Output</a>
