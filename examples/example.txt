@@ -1,25 +1,26 @@
 100
 
-N ( ( MAX ( 0 , 1 ) + N ( 1 ) ) ) .
-0  1  MAX2  1  N  +  N
-MAX2 1 0                           
+N ( ( MAX ( 0 , 1 ) + N ( 1 ) ) ) . // this is the input expression 
+
+0  1  MAX2  1  N  +  N              // the postfix notation
+MAX2 1 0                            // before each calculation print the operator, then the content of the stack
 N 1 1                               
 + -1 1
 N 0
-0
+0                                   // final result
 
 MIN ( MIN ( IF ( 0 , 8 , 2 ) ) , MAX ( MIN ( 9 ) , 4 + 9 ) , ( IF ( 3 , 9 , 9 ) / MIN ( 7 , 0 , 6 , 2 , 1 ) ) , N ( 3 + 4 ) , 1 * 1 + IF ( 1 , 9 , 2 ) ) .
 
 0  8  2  IF  MIN1  9  MIN1  4  9  +  MAX2  3  9  9  IF  7  0  6  2  1  MIN5  /  3  4  +  N  1  1  *  1  9  2  IF  +  MIN5
 IF 2 8 0
-MIN1 2    
+MIN1 2                              // note that each MIN and MAX have their own number of arguments
 MIN1 9 2
 + 9 4 9 2
 MAX2 13 9 2
 IF 9 9 3 13 2
 MIN5 1 2 6 0 7 9 13 2
 / 0 9 13 2
-ERROR
+ERROR                              // note the division by 0
 
 ( MAX ( N ( 2 ) , 3 * 6 , ( 0 * 5 ) , N ( 4 ) , ( 4 - 9 ) ) + MIN ( MIN ( 8 , 0 , 2 , 2 , 0 , 4 ) ) ) .
 
